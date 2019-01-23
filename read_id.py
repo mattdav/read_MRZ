@@ -417,5 +417,5 @@ if __name__ == "__main__":
     for file in tqdm(files):
         process_file(file)
     df_MRZ = pd.DataFrame(mrz_complet)
-#    df_MRZ.to_csv("result_Payplug.csv", sep=";", encoding="latin-1")
+    df_MRZ.to_csv("result.csv", sep=";", encoding="latin-1")
     
